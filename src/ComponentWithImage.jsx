@@ -1,6 +1,6 @@
 import React from 'react';
-import image1 from './img/item-black.jpg';
-import image2 from './img/item-blue.jpg';
+import image1 from '../public/img/item-black.jpg';
+import image2 from '../public/img/item-blue.jpg';
 
 function ComponentWithImage({ isImage1 }) {
   const image = isImage1 ? image1 : image2;
